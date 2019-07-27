@@ -1,0 +1,32 @@
+
+var movies = [{
+	"movieName": "Blade Runner 2049",
+	"description": "A young blade runner's discovery of a long-buried secret leads him to track down former blade runner Rick Deckard, who's been missing for thirty years.",
+	"image": "./img/blade.jpg",
+	"likes": "0"},
+	{
+	"movieName": "Star Wars",
+	"description": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.",
+	"image": "./img/starwars.jpg",
+	"likes": "0"},
+	{
+	"movieName": "Inception",
+	"description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+	"image": "./img/inception.png",
+	"likes": "0"},
+	{
+	"movieName": "Memento",
+	"description": "A man with short-term memory loss attempts to track down his wife's murderer.",
+	"image": "./img/memento.jpg",
+	"likes": "0"},
+	{
+	"movieName": "Léon - the professional",
+	"description": "Mathilda, a 12-year-old girl, is reluctantly taken in by Léon, a professional assassin, after her family is murdered. Léon and Mathilda form an unusual relationship, as she becomes his protégée and learns the assassin's trade.",
+	"image": "./img/leon.jpg",
+	"likes": "0"},
+	{
+	"movieName": "Matrix",
+	"description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+	"image": "./img/matrix.jpg",
+	"likes": "0"},
+];

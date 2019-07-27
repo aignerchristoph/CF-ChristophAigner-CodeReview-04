@@ -1,0 +1,221 @@
+
+/* header and nav bar */
+
+header {
+	background-color: black;
+	text-align: center;
+	color: #98989C;
+	font-size: 80px;
+	padding: 5px;
+	font-family: "Bungee Outline";
+	font-weight: 500;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 5px;
+	font-size: 30px;
+}
+
+li a {
+	color:  #101010;
+	text-decoration: none;
+	font-family: "Open Sans";
+}
+li a:hover {
+	color: white;
+}
+
+nav {
+	background-color: #5E5E6B;
+}
+
+
+
+
+
+
+
+
+/* Main Part */
+
+main {
+	font-family: "Open Sans";
+	background-color: #171E25;
+	height: auto;
+}
+
+h1 {
+	font-family: "Bungee Outline";
+	font-weight: 600;
+	color: #5E5E61;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 0;
+	padding: 10px;
+}
+
+#movies {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+
+
+
+
+
+
+
+/* 
+Boxes for the Movies
+ */
+}
+
+.moviebox {
+	background-color: #101010;
+	width: 40%;
+	height: 30vw;
+	margin-bottom: 50px;
+	color: #808085;
+	display: flex;
+	transition: all .4s ease-in-out;
+
+}
+
+.moviebox:hover {
+	transform: scale(1.1);
+}
+
+.image {
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+}
+
+img {
+	width: 100%;
+}
+
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 50%;
+
+}
+.description {
+	font-size: 1.3vw;
+	justify-self: start;
+	text-align:  center;
+	padding: 5px;
+}
+
+.boxtitle {
+	font-size: 3vw;
+	margin-top: 5px;
+	text-align: center;
+}
+
+#likeArea {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+
+}
+
+.btn {
+	width: 50%;
+  display: inline-block;
+  padding: 5%;
+  font-size: 2vw;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #5E5E6B;
+  border: none;
+  border-radius: 15px;
+}
+
+.btn:hover {
+	background-color: #2E2E48;
+}
+
+.btn:active {
+  background-color: #2E2E48;
+  transform: translateY(4px);
+}
+
+.show {
+	width: 20%;
+	display: inline-block;
+  padding: 5%;
+  font-size: 2vw;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #5E5E6B;
+  border: none;
+  border-radius: 50px;
+}
+
+
+
+
+
+/* Footer */
+
+footer {
+	background-color: black;
+	padding: 20px
+}
+
+h2 {
+	color: #5E5E6B;
+	font-size: 35px;
+	text-align: center;
+	margin: 0;
+	font-family: "Bungee Hairline";
+	font-weight: 600;
+}
+
+/* 
+
+media querys
+ */
+
+@media screen and (max-width: 700px) {
+
+#movies {
+	flex-direction: column;
+	align-content: center;
+
+}
+
+.moviebox {
+	width: 80%;
+	height: auto;
+}
+.boxtitle {
+	font-size: 4vw;
+}
+
+.description {
+	font-size: 3vw;
+}  
+.btn {
+	width: 40%;
+  display: inline-block;
+  padding: 15px;
+  font-size: 3vw;
+}
+
+
+}
+
